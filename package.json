@@ -1,5 +1,5 @@
 {
-  "name": "commandojs",
+  "name": "music-bot",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
@@ -9,19 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ansonfoong/discordjs-commando-tutorial.git"
+    "url": "git+https://github.com/mujibghufron/music-bot.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ansonfoong/discordjs-commando-tutorial/issues"
+    "url": "https://github.com/mujibghufron/music-bot/issues"
   },
-  "homepage": "https://github.com/ansonfoong/discordjs-commando-tutorial#readme",
+  "homepage": "https://github.com/mujibghufron/music-bot#readme",
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "discord.js": "^12.2.0",
     "discord.js-commando": "^0.10.0",
-    "node-opus": "^0.3.2",
-    "ytdl-core": "^0.29.7"
+    "ytdl-core": "^2.1.1"
   }
 }
