@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mujibghufron/music-bot#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "discord.js-commando": "^0.10.0",
+    "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
     "ytdl-core": "^2.1.1"
   }
 }
