@@ -10,7 +10,7 @@ module.exports = class JoinVoiceChannelCommand extends commando.Command {
         })
     }
     async run(msg) {
-        let vc = msg.guild.channels.find(ch => ch.name.toLowerCase() === 'music' && ch.type === 'voice');
+        let vc = msg.member.voice.channel
         if(vc && !vc.connection) {
             await vc.join();
         }
